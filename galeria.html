@@ -7,85 +7,84 @@
     <link rel="short cut icon" href="./img/logo.png">
     <link rel="stylesheet" href="./css/galeria.css">
     <link rel="stylesheet" href="./buscar/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        
-         <!-- Navegador -->
-         <section class="container"> 
-         <div class="btn">
-            <input  type="checkbox" id="btn-menu">
-            <label for="btn-menu"><img src="./img/menu.png" alt="menu" width="25"></label>
-        
-            <img  src="./img/logo.png" alt="logo" class="nav-brand">
-            <nav class="nav-main">
-                
-                <ul>
-                    <li ><a href="./index.html">Home</a></li>
-                    <li ><a href="./galeria.html">Galeria</a></li>
-                    <li ><a href="./servicio.html">Servicios</a></li>
-                    <li ><a href="./registrate.html">Registrate</a></li>
-                    <li ><a href="./contactanos.html">Contactanos</a></li>
-                </ul>
+    <header class="btn">  
+        <nav >
+                <input  type="checkbox" id="btn-menu">
+                <label for="btn-menu"><img src="./img/menu.png" alt="menu" width="25"></label>
+            
+                <img  src="./img/logo.png" alt="logo" class="nav-brand">
+                <div class="nav-main">
+                    
+                    <ul>
+                        <li ><a href="#">Home</a></li>
+                        <li ><a href="./galeria.html">Galeria</a></li>
+                        <li ><a href="./servicio.html">Servicios</a></li>
+                        <li ><a href="./registrate.html">Registrate</a></li>
+                        <li ><a href="./contactanos.html">Contactanos</a></li>
+                    </ul>
+             
+                   <div class="buscar">
+                      <a href="" class="boton">
+                        <i class="icon-buscar"></i></a>
+                        <input type="text" class="buscar_texto" list="lenguages"><datalist id="lenguages">
+                        <option value="Galerias"></option>
+                        <option value="Servicios"></option>
+                        <option value="Registrate"></option>
+                        <option value="Contactos"></option></datalist>
+                    
+                    </div>
+                </div>
+         <hr>     
+        </nav> 
          
-            <div class="buscar">
-                <a href="" class="boton">
-                    <i class="icon-buscar"></i></a>
-                    <input type="text" class="buscar_texto" list="lenguages"><datalist id="lenguages">
-                    <option value="Galerias"></option>
-                    <option value="Servicios"></option>
-                    <option value="Registrate"></option>
-                    <option value="Contactos"></option></datalist>
-                
-            </div>
-            </nav>
-         </div>
-        </section>
-        <hr>
-        <div class="flex-cont">     
-            <div>
-                <a  href="#"><img src="./img/whatsapp.png" alt="whatsapp" width="35">¿Te ayudo?</a></li>
-            </div>
-        </div> 
-<!-- pricipap -->
         <div id="id-eventos">
         
             <a href="./index.html"><img src="./img/logo.png" alt="logo" width="50"></a>
-         
-         <h2><strong>JOBA EVENTOS</strong></h2>
-         <p>EVENTOS PLANER</p>
+        
+            <h2><strong>JOBA EVENTOS</strong></h2>
+            <p>EVENTOS PLANER</p>
 
         </div>
-     
-        
-
-
+           
         <div>
             <h2>GALERIA DE FOTOS</h2>
         </div>
+  
+    </header> 
 
-        <div class="gallery-grid"> 
+        <!-- pricipap -->
+        <section>
+            
+     
+
+            <div class="gallery-grid"> 
            
-            <a href="#"><img src="./img/foto1.jpg" alt="foto1" ></a>
-            <a href="#"><img src="./img/obra.jpg" alt="foto4" ></a>
-            <a href="#"><img src="./img/foto10.jpg" alt="foto5" ></a>
-            <a href="#"><img src="./img/negocio.jpg" alt="foto6" ></a>
-            <a href="#"><img src="../img/foto7.jpg" alt="foto7"></a>
-            <a href="#"><img src="./img/foto8.jpg" alt="foto8" ></a>
-            <a href="#"><img src="./img/foto26.jpg" alt="foto26" ></a>
-            <a href="#"><img src="./img/foto20.jpg" alt="foto20" ></a> 
-            <a href="#"><img src="./img/foto22.jpg" alt="foto22" ></a>
-            <a href="#"><img src="./img/foto23.jpg" alt="foto23" ></a>
-            <a href="#"><img src="./img/foto24.jpg" alt="foto24" ></a>
-            <a href="#"><img src="./img/foto27.jpg" alt="foto27" ></a>
+                <a href="#"><img src="./img/foto1.jpg" alt="foto1" ></a>
+                <a href="#"><img src="./img/obra.jpg" alt="foto4" ></a>
+                <a href="#"><img src="./img/foto10.jpg" alt="foto5" ></a>
+                <a href="#"><img src="./img/negocio.jpg" alt="foto6" ></a>
+                <a href="#"><img src="./img/foto7.jpg" alt="foto7"></a>
+                <a href="#"><img src="./img/foto8.jpg" alt="foto8" ></a>
+                <a href="#"><img src="./img/foto26.jpg" alt="foto26" ></a>
+                <a href="#"><img src="./img/foto20.jpg" alt="foto20" ></a> 
+                <a href="#"><img src="./img/foto22.jpg" alt="foto22" ></a>
+                <a href="#"><img src="./img/foto23.jpg" alt="foto23" ></a>
+                <a href="#"><img src="./img/foto24.jpg" alt="foto24" ></a>
+                <a href="#"><img src="./img/foto27.jpg" alt="foto27" ></a>
            
 
-        </div>
+            </div>
+        </section>    
+       
+
         
         <!-- Contactos del servicio -->
         
-        <section class="conteiner__tre">
+       <section class="conteiner__tre">
             <h2 class="redes">Nuestras redes</h2>
             <h3>JOBA EVENTOS</h3>
             <div class="iconos">
@@ -96,7 +95,7 @@
         
             </div>
         </section>    
-    </header>
+   
     
       <!-- Pie de pagina -->
     <footer class="footer">
