@@ -713,3 +713,79 @@ body .principal .conteiner-princ .planer {
   text-align: center;
   padding-bottom: 20px;
 }
+
+
+
+@media screen and (min-width:320px){
+  .buscar:hover> .buscar_texto {
+      width: 190px;
+  }
+  .nav-main {
+  font-size: 17px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  }
+  
+  
+}
+
+@media screen and (max-width:600px) {
+  .btn label {
+      display:block; 
+  }
+  .buscar {
+      display: none;
+  }
+  .nav-main  {
+      top: 170px;
+      right: 230px; 
+      position: absolute;
+      width: 70%;
+      margin:-70%;
+      transform-origin: 0.3s;
+      transition: all 0.5s;
+  }
+  .gallery-grid {
+      grid-template-columns:  1fr;
+  }
+
+  .nav-main ul {
+      flex-direction: column;
+      background: rgb(199, 199, 199, 0.3);
+   
+  }
+
+  #btn-menu:checked ~ .nav-main {
+      margin: 0px;
+  }
+
+  hr {
+      display: none;
+  }
+  .planer {
+      font-size: 50px;
+  }
+  .catalogo {
+      grid-template-columns: 1fr;
+  }
+  .footer__conteiner {
+      grid-template-columns: 1fr;
+  }
+  .gallery-grid {
+      grid-template-columns: 1fr;
+      margin: 12px;
+      gap: 20px;
+  }
+  .gallery-grid img:hover {
+      transform: none;
+  }
+  .footer .footer__conteiner   {
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+  }    
+}

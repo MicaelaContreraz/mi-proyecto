@@ -657,6 +657,13 @@ body {
     position: sticky;
     top: 0;
     }
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer__conteiner ul {
+        
+        grid-template-columns: repeat(2, 1fr);
+    }    
 }
 
 
@@ -676,7 +683,9 @@ body {
         transform-origin: 0.3s;
         transition: all 0.5s;
     }
-    
+    .gallery-grid {
+        grid-template-columns:  1fr;
+    }
 
     .nav-main ul {
         flex-direction: column;
@@ -708,4 +717,8 @@ body {
     .gallery-grid img:hover {
         transform: none;
     }
+    .footer__conteiner ul {
+        
+        grid-template-columns: repeat(2, 1fr);
+    }    
 }
